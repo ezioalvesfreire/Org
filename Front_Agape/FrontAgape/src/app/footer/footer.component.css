@@ -1,0 +1,32 @@
+.footer{
+    padding: 35px;
+    background-color: rgba(81, 28, 28, 0.856);
+     color: #ffffff;
+   }
+
+  .footer .elem{
+      padding: 10px;
+      border-bottom: solid 1px #FFF;
+      margin-bottom: 35px;
+   }
+
+   .footer object{
+     float: right;
+     margin:12px ;
+   }
+
+   .footer object a.redes{
+    padding: 10px 20px;
+  }
+
+  .footer object a.facebook{
+    background: url("../../assets/images/icon-social-footer.png") no-repeat  60.5% 50%;
+  }
+  .footer object a.instagram{
+    background: url("../../assets/images/icon-social-footer.png") no-repeat 39.5% 50%;
+  }
+  .footer object a.linkedin{
+    background: url("../../assets/images/icon-social-footer.png") no-repeat  -0.8% 50%;
+  }
+ 
+ 

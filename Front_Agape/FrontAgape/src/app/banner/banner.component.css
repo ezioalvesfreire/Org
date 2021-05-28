@@ -1,0 +1,12 @@
+.carousel .obj-login{
+    float: right;
+    margin: 11px 13px -56px;
+    position: relative;
+    z-index: 1;
+  
+} 
+.carousel .obj-login a{
+    color: white;
+    font-weight: bolder;
+    font-size:16px;
+}      
