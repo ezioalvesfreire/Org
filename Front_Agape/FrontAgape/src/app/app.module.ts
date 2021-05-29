@@ -6,7 +6,9 @@ import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { NavebarComponent } from './navebar/navebar.component';
-import { TesteComponent } from './testeDIST/teste.component';
+import { TesteComponent } from './about/about.component';
+import { AboutDetailComponent } from './about-detail/about-detail.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TesteComponent } from './testeDIST/teste.component';
     FooterComponent,
     BannerComponent,
     NavebarComponent,
-    TesteComponent
+    TesteComponent,
+    AboutDetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
