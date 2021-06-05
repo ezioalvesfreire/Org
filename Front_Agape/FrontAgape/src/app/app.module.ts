@@ -10,6 +10,7 @@ import { TesteComponent } from './about/about.component';
 import { AboutDetailComponent } from './about-detail/about-detail.component';
 import { LoginComponent } from './login/login.component';
 import { HelpMeComponent } from './help-me/help-me.component';
+import { MediaPlayerComponent } from './media-player/media-player.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HelpMeComponent } from './help-me/help-me.component';
     TesteComponent,
     AboutDetailComponent,
     LoginComponent,
-    HelpMeComponent
+    HelpMeComponent,
+    MediaPlayerComponent
   ],
   imports: [
     BrowserModule
