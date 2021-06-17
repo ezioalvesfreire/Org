@@ -10,8 +10,11 @@
 .media-player .media{
     width: 100%;
     padding:10px;
-
-
+  
+}
+h1{
+    text-align: center;
+    padding: 10px;
 }
 @media (max-width: 900px) {
     .media-player{
