@@ -1,0 +1,19 @@
+.register {
+    background-color: brown;
+    margin: 40px 13px -56px;
+}
+
+.data-client {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20px 250px 20px;
+}
+
+.button-register {
+    margin: 5px
+}
+
+.register-text {
+    margin: 5px 5px;
+}
