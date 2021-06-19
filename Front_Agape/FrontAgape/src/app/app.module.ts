@@ -10,6 +10,8 @@ import { TesteComponent } from './about/about.component';
 import { AboutDetailComponent } from './about-detail/about-detail.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { HelpMeComponent } from './help-me/help-me.component';
+import { MediaPlayerComponent } from './media-player/media-player.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { RegisterComponent } from './register/register.component';
     AboutDetailComponent,
     LoginComponent,
     RegisterComponent
+    HelpMeComponent,
+    MediaPlayerComponent
   ],
   imports: [
     BrowserModule

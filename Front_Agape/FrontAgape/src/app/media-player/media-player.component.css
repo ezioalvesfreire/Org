@@ -1,0 +1,26 @@
+.media-player{
+    margin: 0 auto;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1177px;
+  
+}
+.media-player .media{
+    width: 100%;
+    padding:10px;
+  
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 900px) {
+    .media-player{
+    grid-template-columns: 1fr;
+    }
+    
+  }
+  
+  
