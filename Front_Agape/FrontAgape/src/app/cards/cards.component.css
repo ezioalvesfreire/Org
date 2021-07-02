@@ -1,16 +1,20 @@
 .bg-card {
+       padding: 20px;
+       background: rgb(235, 235, 235);
        padding:20px;
        margin: 3% 0 5% 19.5%;
        background-color: rgb(81, 28, 28);
-       max-width: 1168px; /**/
+       max-width: 1168px; 
        border-radius: 5px;
              
 }
 h1{
        text-align: center;
        padding: 10px;
+       
 }
+
 .card{
        margin-left: 14%;
-    
+
 }

@@ -9,6 +9,7 @@ import { NavebarComponent } from './navebar/navebar.component';
 import { TesteComponent } from './about/about.component';
 import { AboutDetailComponent } from './about-detail/about-detail.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { HelpMeComponent } from './help-me/help-me.component';
 import { MediaPlayerComponent } from './media-player/media-player.component';
 
@@ -22,6 +23,7 @@ import { MediaPlayerComponent } from './media-player/media-player.component';
     TesteComponent,
     AboutDetailComponent,
     LoginComponent,
+    RegisterComponent,
     HelpMeComponent,
     MediaPlayerComponent
   ],
