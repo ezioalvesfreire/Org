@@ -12,6 +12,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HelpMeComponent } from './help-me/help-me.component';
 import { MediaPlayerComponent } from './media-player/media-player.component';
+import { BannerActiveComponent } from './banner-active/banner-active.component';
+import { LogoAgapeComponent } from './logo-agape/logo-agape.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { MediaPlayerComponent } from './media-player/media-player.component';
     LoginComponent,
     RegisterComponent,
     HelpMeComponent,
-    MediaPlayerComponent
+    MediaPlayerComponent,
+    BannerActiveComponent,
+    LogoAgapeComponent
   ],
   imports: [
     BrowserModule

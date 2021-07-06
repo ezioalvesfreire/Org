@@ -1,5 +1,11 @@
-.login {
+.menu-login {
     background-color: rgb(81, 28, 28);
     margin: 0 0 0 2%;
     color: white;
+    padding: auto;
+}
+
+.menu-login .dropdown-item{
+    color: rgb(81, 28, 28);
+
 }
