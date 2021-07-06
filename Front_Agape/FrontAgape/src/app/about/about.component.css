@@ -1,21 +1,15 @@
 .about{
-    /*
-    float: left;
-    margin: -159px 266px -56px;
-    position: relative;*/
-    margin: 8%;
-   /* position: absolute; */
-    color: white;
-    z-index: 1000;
-    
+    margin: 0% 3% 3% 10%;
+     color: white;
+      
 }
-.obj-about{
+.btn-info.about {
     border-radius: 50px;
 
 }
 .about h5{
        
-    margin: 0 0 0 15%; 
+    margin: 0 0 0 9%; 
       
 }
 @media (max-width: 600px) {

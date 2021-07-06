@@ -1,7 +1,15 @@
 .banner{
     background-image: linear-gradient(to bottom, rgb(81, 28, 28), rgb(165, 42, 42));
    /* background-color: brown;*/
+   
 }
 .banner.obj-login{
+    
+}
+.logoAgape{
+    text-align: right;
+}
+.login-register{
+    text-align: right;
     
 }
