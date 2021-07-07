@@ -6,7 +6,7 @@
 .banner.obj-login{
     
 }
-.logoAgape{
+.logoAgape-banner{
     text-align: right;
 }
 .login-register{
@@ -15,4 +15,12 @@
 }
 .btn.register{
     color: white;
+}
+
+.logoAgape{
+    text-align: right;
+    position: relative;
+	right: 15px;
+    float: right;
+    width: 50%;
 }

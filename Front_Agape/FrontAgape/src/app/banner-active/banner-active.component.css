@@ -22,3 +22,36 @@
 .carousel-item .logo img{
   width: 50%;
 }
+.logoAgape-banner{
+    position: relative;
+    float: right;
+    z-index: 2;
+    margin: 4% 9%;
+   
+}
+.logoAgape-banner img{
+    /*width: 80%;*/
+}
+@media (max-width: 800px) {
+    .logoAgape-banner img{
+        width: 60%;
+        margin: -1% 25% -21%;
+    }
+}
+@media (max-width: 600px) {
+    
+    .logoAgape-banner img{
+        width: 89%;
+        margin: 9% -20% -21%;
+    }
+    
+}
+@media (max-width: 450px) {
+    .logoAgape-banner img{
+        width: 70%;
+        margin: 14% -11% -21%;
+    }
+
+        
+           
+}
