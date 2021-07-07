@@ -32,6 +32,12 @@
 .logoAgape-banner img{
     /*width: 80%;*/
 }
+@media (max-width: 1050px) {
+    .logoAgape-banner img{
+        width: 60%;
+        margin: -1% 25% -21%;
+    }
+}
 @media (max-width: 800px) {
     .logoAgape-banner img{
         width: 60%;
@@ -48,8 +54,14 @@
 }
 @media (max-width: 450px) {
     .logoAgape-banner img{
-        width: 70%;
-        margin: 14% -11% -21%;
+        width: 39%;
+    margin: 11% 32% -41%;
+    }
+    @media (max-width: 350px) {
+        .logoAgape-banner img{
+            width: 39%;
+        margin: 11% 32% -41%;
+        }
     }
 
         

@@ -1,4 +1,6 @@
 .about{
+  
+    max-width: 25%;
     margin: 0% 3% 3% 10%;
      color: white;
       
@@ -12,28 +14,59 @@
     margin: 0 0 0 9%; 
       
 }
-@media (max-width: 600px) {
-    .about{
-        color: aquamarine;
-        font-size: 65%;
+@media (max-width: 1950px) {
+    .about{       
+       max-width: 41%; 
        
-       
-    }
-    .about h5{
-       
-        font-size: 95%;
-        margin: 0 0 0 4%;
-        
-    }
-    .about p{
-       
-        width: 40%;
-        
-    }
-    .btn-info.about {
-    
-        font-size: 35%;
-
     }
 }
+@media (max-width: 1450px) {
+    .about{       
+       max-width: 41%; 
+       
+    }
+}
+@media (max-width: 1050px) {
+    .about{       
+        max-width: 59%;
+       
+    }
+}
+    @media (max-width: 850px) {
+        .about{
+            max-width: 100%;
+            font-size: 108%;
+               
+           
+        }
+    }
+@media (max-width: 600px) {
+    .about{
+       
+        font-size: 65%;
+        max-width: 77%;
+       
+    }
+}
+    @media (max-width: 450px) {
+       .about{
+            max-width: 77%;
+            margin: 0% 3% 3% 15%;
+            
+           
+           
+        }
+        .about h5{
+       
+            font-size: 150%;
+           
+            margin: 0 0% 0% 10%;
+            
+        }
+        .about p{
+            margin: 1%;
+               
+        }
+    }
+   
   
