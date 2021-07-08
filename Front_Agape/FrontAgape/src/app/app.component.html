@@ -10,8 +10,23 @@
 <div class="content" role="main">
 
     <app-cards></app-cards>
-    <app-login></app-login>
+  <!--  <app-login></app-login> -->
 
-    <app-register></app-register> 
+   <!-- <app-register></app-register> -->
+
+    <nav>
+        <!-- <a href=""></a> -->
+        <!--<a routerLink="../app" routerLinkActive="active">Home</a><br>
+        <a routerLink="/register" routerLinkActive="active">cadastre-se</a><br> -->
+        <a routerLink="/login" routerLinkActive="active">login</a><br>
+
+       <a href="/register" class="btn btn-primary">Register</a><br>
+       <a href="/login" class="btn btn-primary">Login</a>
+      
+    </nav>
+
+    <router-outlet></router-outlet>
+    
      <app-footer></app-footer>
-   
+
+    

@@ -31,3 +31,7 @@ li {
 .nav-link {
   color: white !important;
 }
+
+nav a.active {
+  color: brown;
+}

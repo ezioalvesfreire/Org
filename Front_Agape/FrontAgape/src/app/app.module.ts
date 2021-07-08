@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+
+import{ ROUTES } from './app.routes'
 
 import { AppComponent } from './app.component';
 import { CardsComponent } from './cards/cards.component';
@@ -32,7 +35,8 @@ import { LogoAgapeComponent } from './logo-agape/logo-agape.component';
     LogoAgapeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
