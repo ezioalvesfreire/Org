@@ -16,19 +16,20 @@ export class FormRegisterComponent implements OnInit {
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
-import { AppService } from './app.service';
+import { AppService } from '../app.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-form-register'
+  //selector: 'app-root',
+  templateUrl: './form-register.component.html',
+  styleUrls: ['./form-register.component.css']
 })
-export class AppComponent implements OnInit {
+export class FormRegisterComponent implements OnInit {
 
   contatos: Array<any>;
   contato: any;
 
-  constructor(private service: AppService) {}
+    constructor(private service: AppService) {}
 
   ngOnInit() {
     this.contato = {};
