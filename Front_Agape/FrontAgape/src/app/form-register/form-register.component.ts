@@ -19,7 +19,7 @@ import { FormGroup } from '@angular/forms';
 import { AppService } from '../app.service';
 
 @Component({
-  selector: 'app-form-register'
+  selector: 'app-form-register',
   //selector: 'app-root',
   templateUrl: './form-register.component.html',
   styleUrls: ['./form-register.component.css']
